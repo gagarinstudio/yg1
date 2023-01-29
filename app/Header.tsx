@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Navigation from "@/app/Navigation";
 
 export default function Header() {
     return (
@@ -13,7 +14,7 @@ export default function Header() {
                     />
                 </div>
 
-
+                <Navigation/>
             </header>
 
         </>
